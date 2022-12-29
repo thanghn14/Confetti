@@ -1,5 +1,10 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
   font-family: "Roboto";
+}
+
+body {
   margin: 0;
   padding: 0;
 }
@@ -73,7 +78,7 @@ body {
 }
 
 /* Checkmark */
-.checkmark-circle {
+/* .checkmark-circle {
   width: 150px;
   height: 150px;
   position: relative;
@@ -197,11 +202,11 @@ body {
     width: 37.5px;
     opacity: 1;
   }
-}
+} */
 
 .submit-btn {
   height: 20%;
-  width: 60%;
+  width: 55%;
   font-size: 70px;
   font-weight: 700;
   animation: congrats 1s ;
@@ -220,6 +225,10 @@ body {
   transition: all 0.2s ease-out;
 }
 
+.congrats {
+  color: #00ab8c;
+}
+
 @keyframes congrats {
   from {
     height: 5%;
@@ -229,7 +238,7 @@ body {
 
   to {
     height: 20%;
-    width: 60%;
+    width: 55%;
     font-size: 70px;
   }
 }
