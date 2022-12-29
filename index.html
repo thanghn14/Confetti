@@ -33,7 +33,7 @@
       <button
         class="submit-btn"
         type="submit"
-        onclick="alert('Welcome')"
+        onclick="myFunction()"
       >
         1000 tỷ
       </button>
@@ -41,5 +41,11 @@
     </div>
 
     <script src="./assets/js/main.js"></script>
+    <script>
+        function myFunction() {
+        var audio = new Audio('./assets/mp3/welcome.mp3');
+        audio.play();
+      }
+    </script>
   </body>
 </html>
