@@ -205,9 +205,9 @@ body {
 } */
 
 .submit-btn {
-  height: 20%;
-  width: 55%;
-  font-size: 70px;
+  height: 25%;
+  width: 60%;
+  font-size: 100px;
   font-weight: 700;
   animation: congrats 1s ;
   background-color: rgba(0, 192, 157, 1);
@@ -226,7 +226,7 @@ body {
 }
 
 .congrats {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
   color: #00ab8c;
 }
