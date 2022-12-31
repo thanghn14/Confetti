@@ -205,9 +205,9 @@ body {
 } */
 
 .submit-btn {
-  height: 46%;
-  width: 75%;
-  font-size: 260px;
+  height: 36%;
+  width: 60%;
+  font-size: 160px;
   font-weight: 700;
   animation: congrats 1s ;
   background-color: rgba(0, 192, 157, 1);
@@ -239,9 +239,9 @@ body {
   }
 
   to {
-    height: 46%;
-    width: 75%;
-    font-size: 260px;
+    height: 36%;
+    width: 60%;
+    font-size: 160px;
   }
 }
 
@@ -426,3 +426,18 @@ body {
   80%, 99.9% {
     margin-top: 30%;
     margin-left: 80%; } }
+
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
